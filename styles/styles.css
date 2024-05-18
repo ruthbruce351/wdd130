@@ -94,7 +94,7 @@ aside img {
     align-items: center;
 }
 
-.footer {
+.center {
     display: grid;
     justify-items: center;
     border-top: thin solid steelblue;
