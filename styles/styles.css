@@ -92,10 +92,6 @@ aside img {
 .grid {
     display: grid;
     align-items: center;
-}
-
-.center {
-    display: grid;
-    justify-items: center;
     border-top: thin solid steelblue;
+    justify-items: center;
 }
