@@ -75,6 +75,11 @@ aside img {
     height: auto;
 }
 
+footer {
+    border-top: thin solid steelblue;
+    justify-items: center;
+}
+
 /*Class Selectors*/
 
 .box {
@@ -92,6 +97,4 @@ aside img {
 .grid {
     display: grid;
     align-items: center;
-    border-top: thin solid steelblue;
-    justify-items: center;
 }
