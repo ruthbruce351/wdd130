@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the Contact page for the Rafting Site Project.">
+    <meta name="author" content="Ruth (Bruce) Blake">
+    <title>Contact Us - Club Rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Rafting Site Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-heading">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="adventure">
+            <h2>Our Team</h2>
+            <div class="adventurepictures">
+                <figure>
+                <img src="images/john.jpeg" alt="John - Owner">
+                    <figcaption>John - Owner</figcaption> 
+                </figure>
+                <figure>
+                <img src="images/allison.jpeg" alt="Allison - Guide">
+                    <figcaption>Allison - Tour Guide</figcaption>
+                </figure>
+                <figure>
+                <img src="images/david.jpeg" alt="David - Trip Planner">
+                    <figcaption>David - Trip Planner</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="contact-info">
+            <div class="info">
+                <h3>Club Rafting</h3>
+                <h4> ⟟ 1231 Address Lane, Carrollton, TX 75007</h5>
+                <h4> ✉ email@gmail.com</h5>
+                <h4> ☎ 333.444.5555</h5>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4643.160862825891!2d-96.89938282722431!3d32.99339675303864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1716602963338!5m2!1sen!2sus" 
+                width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="feedback-form">
+            <h1>Contact Us</h1>
+            <form>
+                <div class="name-email">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email">
+                </div>  
+                <section>
+                    <legend>What is the nature of your request?</legend>
+                    <div>
+                      <input type="radio" id="inquiry" name="inquiry" value="inquiry" checked />
+                      <label for="inquiry">General Inquiry</label>
+                    </div>
+                    <div>
+                      <input type="radio" id="question" name="question" value="question" />
+                      <label for="question">Reservation Question</label>
+                    </div>
+                    <div>
+                      <input type="radio" id="suggestion" name="suggestion" value="suggestion" />
+                      <label for="suggestion">Website Suggestion</label>
+                    </div>
+                </section>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" cols="33">Enter message here..</textarea>
+                <div class="subscribe">
+                    <input type="checkbox" id="newsletter" name="newsletter" checked/>
+                    <label for="newsletter">Subscribe to our monthly newsletter!</label>
+                </div>
+                <input class="button" type="submit" value="Send Message">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>©2024 | Club Rafting | Ruth (Bruce) Blake</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.webp" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.webp" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.webp" alt="instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>

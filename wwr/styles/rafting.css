@@ -37,16 +37,23 @@ nav {
     justify-content: space-around;
 }
 
-h2 {
+h1 {
+    font-size: 2em;
+    color: var(--accent2-color);
+    text-align: center;
+}
+
+h2, .feeback-form form, .contact-info {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
+    margin: 10px;
 }
 
 .adventure {
     display: grid;
-    grid-template-rows: 1fr 6fr;
-    margin-top: 10px;
+    margin-top: 20px;
     justify-content: space-around;
     align-items: center;
     padding: 15px;
@@ -77,15 +84,13 @@ figcaption {
     text-align: center;
 }
 
-
-
 .history {
     display: grid;
     grid-template-rows: 1fr 3fr;
     align-items: center;
     padding: 15px;
     border: solid;
-    margin-top: 15px;
+    margin-top: 20px;
     color: var(--accent2-color);
     align-content: center;
 }
@@ -145,3 +150,102 @@ footer {
     display: flex;
     justify-content: flex-end;
 }
+
+.contact-heading {
+    background-color: var(--secondary-color);
+    display: grid;
+    height: 150px;
+    align-items: center;
+}
+
+.info {
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    display: grid;
+    align-items: center;
+    border: solid thin;
+    color: var(--accent2-color);
+    align-content: center;
+}
+
+section {
+    border: solid thin;
+    color: var(--accent2-color);
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.map {
+    padding: 15px;
+    margin: 10px;
+    width: fit-content;
+}
+
+.feedback-form form {
+    margin: 1rem;
+    padding: 3rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: .5rem;
+    background-color: #eee;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-email {
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+}
+
+.name-email input {
+    width: 500px;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+}
+
+text, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+label, legend {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+.button {
+    background-color: var(--accent2-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.button:hover {
+    background-color: var(--nav-background-color);
+}
+
+.radio-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    justify-items: left;
+} 
+
+input {
+    margin: 15px;
+}
+
+section label, h4 {
+    font-weight: normal;
+}
+
+.subscribe {
+    margin: 20px;
+}
+
