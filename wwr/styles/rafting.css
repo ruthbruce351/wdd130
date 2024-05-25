@@ -210,14 +210,14 @@ text, textarea {
     font-size: 1.1rem;
 }
 
-label, legend {
+label, section label {
     margin-top: 20px;
     margin-bottom: 10px;
     font-weight: bold;
 }
 
 
-.button {
+button {
     background-color: var(--accent2-color);
     color: #fff;
     border: none;
@@ -226,7 +226,7 @@ label, legend {
     padding: 1rem;
 }
 
-.button:hover {
+button:hover {
     background-color: var(--nav-background-color);
 }
 
