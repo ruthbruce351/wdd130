@@ -95,6 +95,11 @@ figcaption {
     align-content: center;
 }
 
+.hero {
+    display: block;
+    position: relative;
+}
+
 .hero img {
     display: block;
     width: 100%;
@@ -104,13 +109,14 @@ figcaption {
 
 .hero h1 {
     position: absolute;
-    top: 180px;
+    top: 40px;
     left: 0;
     color: var(--secondary-color);
     background-color: var(--accent2-color);
     width: 100%;
     background: rgba(24, 29, 57, 0.766);
     text-align: center;
+    font-size: 4em;
 }
 
 .hero article {
@@ -118,7 +124,7 @@ figcaption {
     color: var(--secondary-color);
     padding: 0;
     position: absolute;
-    top: 260px;
+    top: 180px;
     left: 0;
     display: block;
 
