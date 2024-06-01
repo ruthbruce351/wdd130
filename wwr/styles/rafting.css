@@ -51,7 +51,7 @@ h2, .feeback-form form, .contact-info {
     margin: 10px;
 }
 
-.adventure {
+.adventure, .highlights {
     display: grid;
     margin-top: 20px;
     justify-content: space-around;
@@ -139,7 +139,7 @@ figcaption {
     display: block;
 }
 
-.hero article p {
+.hero article p, .hero article a {
     margin: 20px;
     display: block;
     color: var(--secondary-color);
@@ -162,6 +162,10 @@ footer {
     display: grid;
     height: 150px;
     align-items: center;
+}
+
+.contact-heading a {
+    text-align: center;
 }
 
 .info {
@@ -255,3 +259,42 @@ section label, h4 {
     margin: 20px;
 }
 
+table, th, td {
+    border: 1px solid;
+    border-color: var(--accent2-color);
+    border-collapse: collapse;
+    padding: 15px;
+    margin: 20px;
+
+}
+    
+tr:nth-child(even) {
+    background-color: rgba(135, 135, 135, 0.245);
+} 
+
+tr:hover {
+    background-color: #D6EEEE;
+}
+
+.purpose {
+    display: grid;
+    margin: 10px;
+}
+
+.purpose-photos {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.purpose-text {
+    grid-column: 2;
+    grid-row-start: 0;
+    grid-row-end: 2;
+    align-self: center;
+    text-align: center;
+}
+
+.purpose-text h1 {
+    font-size: 2em;
+    color: var(--accent2-color);
+}
