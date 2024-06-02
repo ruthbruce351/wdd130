@@ -288,7 +288,7 @@ tr:hover {
 
 .purpose-text {
     grid-column: 2;
-    grid-row-start: 0;
+    grid-row-start: 1;
     grid-row-end: 2;
     align-self: center;
     text-align: center;
